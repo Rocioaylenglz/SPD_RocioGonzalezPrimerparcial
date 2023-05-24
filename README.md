@@ -4,11 +4,11 @@
 
 ## Proyecto : Montacargas, parcial
 
-* Diagramas 
+##	Diagramas 
 [![arduino.png](https://i.postimg.cc/HsqzhDX1/arduino.png)](https://postimg.cc/GHjv4fXX)
 [![circuito.png](https://i.postimg.cc/2SXZKnPb/circuito.png)](https://postimg.cc/fVmy3SWD)
 
-* Elementos Utilizados:
+##	Elementos Utilizados:
 • 3 botones, uno para subir pisos, otro para bajar pisos y otro para
 detener el montacarga (por el momento no se detiene el montacargas). 
 
@@ -18,7 +18,7 @@ movimiento, otro rojo que indica cuando el montacarga está pausado.
 • Un display 7 segmentos que informa en tiempo real en qué piso se
 encuentra el elevador.
 
-* Funcionamiento Integral
+##	Funcionamiento Integral
 <pre lang="cpp">
 #define sube A2
 #define pausa A1
