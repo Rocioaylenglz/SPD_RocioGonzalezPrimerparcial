@@ -192,6 +192,6 @@ void subirUno(int A,int B, int G, int C ,int D,int E, int F){
 
 </pre>
 Por último, hay varias funciones (llegar, subirUno, subirDos, etc.) que se utilizan para encender o apagar los segmentos del display de siete segmentos para mostrar los números del 0 al 5.
-[![circuito.png](https://i.postimg.cc/sfbPLgcT/circuito.png)](https://postimg.cc/9ztqRVs9)
-##  holaa
-### chau 
+
+### Código fuente del proyecto 
+https://onlinegdb.com/rO6r-Si5U5
