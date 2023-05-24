@@ -10,13 +10,13 @@
 
 ##	Elementos Utilizados:
 • 3 botones, uno para subir pisos, otro para bajar pisos y otro para
-detener el montacarga (por el momento no se detiene el montacargas). 
+detener el montacargas (por el momento no se detiene el montacargas al presionar dicho botón). 
 
-• 2 LEDs, uno verde que indica cuando el montacarga está en
-movimiento, otro rojo que indica cuando el montacarga está pausado.
+• 2 LEDs, uno verde que indica cuando el montacargas está en
+movimiento, otro rojo que indica cuando el montacargas está pausado.
 
 • Un display 7 segmentos que informa en tiempo real en qué piso se
-encuentra el elevador.
+encuentra.
 
 ##	Funcionamiento Integral
 <pre lang="cpp">
@@ -60,7 +60,7 @@ void setup()
     Serial.begin(9600);
 }
 </pre>
-configuro los pines como entradas o salidas, además de iniciar la comunicación serial a una velocidad de 9600 baudios.
+Configuro los pines como entradas o salidas, además de iniciar la comunicación serial a una velocidad de 9600 baudios.
 <pre lang="cpp">
 void loop()
 {
@@ -94,7 +94,7 @@ void loop()
     mostrarPiso(pisoActual);
 }
 </pre>
-En el loop, ejecuto llamando las funciones que hice en el programa 
+En el loop, ejecuto llamando las funciones que hice a continuación en el programa 
 <pre lang="cpp">
 void mostrarPiso(int piso)
 {
